@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background-color: #fbfbfc;
+}
+/*header*/
+.head-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background-color: white;
+  height: 80px;
+  border-bottom: 1px solid #edf0f4;
+}
+.head-top img:nth-child(1) {
+  position: absolute;
+  left: 32px;
+  top: 20px;
+}
+.head-top .head-text1 {
+  position: absolute;
+  left: 264px;
+  top: 18px;
+}
+.head-top .head-text1 h3 {
+  color: #4cb147;
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.15000000596046448px;
+  text-align: left;
+}
+.head-top .head-text1 p {
+  color: #848b98;
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.25px;
+  text-align: left;
+}
+.head-top .icon1 {
+  position: absolute;
+  right: 32px;
+  top: 22px;
+  background-color: #edf0f4;
+  border-radius: 100%;
+  width: 36px;
+  height: 36px;
+}
+.head-top .icon1 img {
+  position: absolute;
+  right: 32px;
+  top: 22px;
+}
+.head-bottom {
+  width: 265px;
+  height: 1px;
+  background-color: #4cb147;
+  position: relative;
+}
+.head-bottom .onepage {
+  position: absolute;
+  border-radius: 100%;
+  border: 1px solid #4cb147;
+  left: 265px;
+  bottom: -12px;
+}
+.head-bottom .onepage p {
+  padding: 2px 8px;
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #4cb147;
+}
+/*header*/
+
+/*section*/
+
+.profile-box {
+  width: 556px;
+  height: 715px;
+  border: 1px solid #edf0f4;
+  position: relative;
+  margin:0 auto;
+  margin-top: 32px;
+  background-color: white;
+  border-radius: 8px;
+}
+.profile-box .profile-avatar{
+    position: absolute;
+    border-bottom:1px solid #edf0f4 ;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    width: 556px;
+    padding: 32px 24px;
+}
+.profile-box .profile-avatar h3{
+   color: #101825;
+font-family: HK Grotesk;
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.profile-box .profile-avatar p{
+    color: #848B98;
+font-family: HK Grotesk;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: -0.15000000596046448px;
+text-align: left;
+
+}
+.profile-box .profile-box-top {
+  position: absolute;
+  left: 32px;
+  top: 161px;
+}
+ .profile-box .profile-box-top h1 {
+  color: #101825;
+  font-family: HK Grotesk;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.profile-box .profile-box-top p {
+  color: #848b98;
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+ .profile-box .profile-boxs1 {
+  display: flex;
+  column-gap: 5px;
+  position: absolute;
+  left: 32px;
+  top: 205px;
+  transition: all 300ms;
+}
+ .profile-box .profile-boxs1 .profile-box1 {
+  width: 242px;
+  height: 56px;
+  border: 1px solid #edf0f4;
+  border-radius: 8px;
+  position: relative;
+  background-color: white;
+}
+ .profile-box .profile-boxs1 .profile-box1 p {
+  position: absolute;
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.25px;
+  text-align: left;
+  top: 18px;
+  left: 56px;
+}
+ .profile-box .profile-boxs1 .profile-box1 .foto1 {
+  position: absolute;
+  left: 16px;
+  top: 20px;
+}
+ .profile-box .profile-boxs1 .profile-box1 .foto2 {
+  position: absolute;
+  right: 16px;
+  top: 20px;
+}
+ .profile-box .profile-boxs2 {
+  position: absolute;
+  top: 277px;
+  left: 32px;
+}
+ .profile-box .profile-boxs2 .profile-box2 {
+  width: 492px;
+  height: 56px;
+  border: 1px solid #edf0f4;
+  border-radius: 8px;
+  position: relative;
+  margin-bottom: 5px;
+  background-color: white;
+}
+ .profile-box .profile-boxs2 #profile-box2 {
+  background-color: #f2faf2;
+  border: 1px solid #4cb147;
+}
+ .profile-box .profile-boxs2 .profile-box2 p {
+  position: absolute;
+  top: 18px;
+  left: 48px;
+  color: #273142;
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+}
+ .profile-box .profile-boxs2 .profile-box2 img {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
+ .profile-box button {
+ width: 492px;
+  height: 48px;
+  background-color: #4cb147;
+  border-radius: 8px;
+  border: none;
+  position: absolute;
+  left: 32px;
+  bottom: 32px;
+}
+ .profile-box button a {
+  color: white;
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.25px;
+  text-align: center;
+  padding: 12px 85px;
+   
+}
+/*section*/

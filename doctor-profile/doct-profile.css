@@ -1,0 +1,656 @@
+@import "../header.css";
+@import "../footer.css";
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/*PROFILE*/
+.profile {
+  margin-top: 32px;
+  display: flex;
+  column-gap: 24px;
+  height: 140px;
+}
+.profile .profile-avatar span {
+  border-radius: 100%;
+  background-color: white;
+  border: 1px solid #edf0f4;
+  padding: 8px 8px;
+  position: relative;
+  bottom: 120px;
+  left: 40px;
+}
+.profile .profile-avatar span img {
+  position: relative;
+  top: 5px;
+  
+}
+.profile .profile-about {
+  margin-top: 8px;
+}
+.profile .profile-about :nth-child(1) {
+  font-family: HK Grotesk;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.15000000596046448px;
+  text-align: left;
+  color: #4cb147;
+}
+.profile .profile-about :nth-child(2) {
+  font-family: HK Grotesk;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #101825;
+}
+.profile .profile-about :nth-child(3) {
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.15000000596046448px;
+  text-align: left;
+  color: #273142;
+}
+.profile .profile-about :nth-child(4) {
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #848b98;
+}
+.profile .profile-box{
+  width: 416px;
+  height: 634px;
+  border: 1px solid #edf0f4;
+  position: relative;
+  left: 220px;
+  top: 56px;
+  background-color: white;
+  border-radius: 8px;
+}
+.profile .profile-box .profile-box-top {
+position: absolute;
+left: 32px;
+top: 32px;
+}
+.profile .profile-box .profile-box-top h1{
+ color: #101825;
+font-family: HK Grotesk;
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.profile .profile-box .profile-box-top p{
+  color: #848B98;
+font-family: HK Grotesk;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.5px;
+text-align: left;
+
+}
+.profile .profile-box .profile-boxs1{
+  display: flex;
+  column-gap: 5px;
+  position: absolute;
+  left: 32px;
+  top: 100px;
+  transition: all 300ms;
+
+}
+.profile .profile-box .profile-boxs1 .profile-box1{
+  width: 172px;
+  height: 80px;
+  border: 1px solid #edf0f4;
+  border-radius: 8px;
+  position: relative;
+  background-color: white;
+}
+.profile .profile-box .profile-boxs1 .profile-box1 p{
+  position: absolute;
+font-family: HK Grotesk;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: -0.25px;
+text-align: left;
+top: 48px;
+left: 12px;
+
+}
+.profile .profile-box .profile-boxs1 .profile-box1 .foto1{
+  position: absolute;
+  left: 12px;
+  top: 12px;
+}
+.profile .profile-box .profile-boxs1 .profile-box1 .foto2{
+position: absolute;
+right: 14px;
+top: 12px;
+}
+.profile .profile-box .profile-boxs2{
+  position: absolute;
+  top: 190px;
+  left: 32px;
+}
+.profile .profile-box .profile-boxs2 .profile-box2{
+width: 352px;
+height: 56px;
+border: 1px solid #edf0f4;
+border-radius: 8px;
+position: relative;
+margin-bottom: 5px;
+background-color: white;
+}
+.profile .profile-box .profile-boxs2 #profile-box2{
+  background-color: #F2FAF2;
+  border: 1px solid #4CB147;
+}
+.profile .profile-box .profile-boxs2 .profile-box2 p{
+  position: absolute;
+  top: 18px;
+  left: 48px;
+  color: #273142;
+font-family: HK Grotesk;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.10000000149011612px;
+text-align: left;
+
+}
+.profile .profile-box .profile-boxs2 .profile-box2 img{
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
+.profile .profile-box button {
+  width: 352px;
+  height: 40px;
+  background-color: #4cb147;
+  border-radius: 8px;
+  border: none;
+  position: absolute;
+  left: 32px;
+  bottom: 32px;
+}
+.profile .profile-box button a{
+  color: white;
+font-family: HK Grotesk;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.25px;
+text-align: center;
+
+}
+
+
+.group2{
+  position: absolute;
+ left: 24px;
+ top: 330px;
+}
+ .group2-top {
+  display: flex;
+  column-gap: 10px;
+}
+ .group2-top div {
+  width: 64px;
+  height: 46px;
+  border: 1px solid #edf0f4;
+  border-radius: 7px;
+  position: relative;
+}
+ .group2-top div h3 {
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #101825;
+  position: absolute;
+  left: 12px;
+  top: 5px;
+}
+ .group2-top .okt10 {
+  background-color: #4cb147;
+}
+ .group2-top .okt10 h3 {
+  color: white;
+}
+ .group2-top .okt10 p {
+  color: white;
+}
+ .group2-top div p {
+  font-family: HK Grotesk;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #b7bbc2;
+  position: absolute;
+  left: 14px;
+  bottom: 5px;
+}
+.group2-box-bottom {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 45px;
+  top: 66px;
+}
+.group2-box-bottom div {
+  width: 66px;
+  height: 30px;
+  border-radius: 7px;
+  background-color: #edf0f4;
+}
+#box-bottom {
+  left: 0px;
+}
+.group2-box-bottom .box8 {
+  background-color: #4cb147;
+}
+.group2-box-bottom .box8 p {
+  color: white;
+}
+
+.group2-box-bottom div p {
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #101825;
+  position: relative;
+  left: 16px;
+  top: 5px;
+}
+.group2-2bottom div {
+  width: 352px;
+  height: 96px;
+  border: 1px solid #edf0f4;
+  position: relative;
+  top: 16px;
+  border-radius: 8px;
+}
+.group2-2bottom div p {
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.25px;
+  text-align: center;
+  position: relative;
+  top: 16px;
+}
+.group2-2bottom div :nth-child(3) {
+  color: #4cb147;
+  display: flex;
+  align-items: center;
+  column-gap: 2px;
+  position: relative;
+  left: 101px;
+  top: 40px;
+}
+.group2-2bottom div .xett {
+  width: 352px;
+  height: 1px;
+  background-color: #edf0f4;
+  position: relative;
+  top: 30px;
+}
+
+
+/*PROFILE*/
+/*Navbar*/
+nav {
+  margin-top: 38px;
+  width: 100%;
+  border-top: 1px solid #edf0f4;
+  border-bottom: 1px solid #edf0f4;
+}
+.navbar {
+  padding: 14px 0;
+}
+.navbar ul {
+  display: flex;
+  gap: 32px;
+}
+.navbar ul .li1 a {
+  color: #273142;
+}
+.navbar ul .li1 ::after {
+  content: " ";
+  width: 58px;
+  height: 1px;
+  background-color: #4cb147;
+  position: relative;
+  z-index: 999;
+  display: block;
+  top: 15px;
+}
+
+.navbar ul li a {
+  color: #848b98;
+
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.25px;
+  text-align: left;
+}
+/*Navbar*/
+/*Group-about*/
+.group-about {
+  margin-top: 32px;
+  display: grid;
+  row-gap: 16px;
+  position: relative;
+  width: 654px;
+}
+.group-about h1 {
+  color: #101825;
+  font-family: HK Grotesk;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.group-about h3 {
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.15000000596046448px;
+  text-align: left;
+  color: #101825;
+}
+.group-about .p1 {
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+.group-about .p1 a {
+  color: #4cb147;
+}
+.group-about .p1 b {
+  color: #ffad0d;
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.15000000596046448px;
+  text-align: left;
+}
+.group-about .p2 {
+  color: #273142;
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+.like :first-child {
+ position: absolute;
+ right: 0;
+ top: 0;
+}
+.like :last-child {
+  position: absolute;
+  right: 58px;
+  top: 80px;
+}
+/*Group-about*/
+/*Group-about2*/
+.group-about2{
+  width: 654px;
+  position: relative;
+}
+#group-about2{
+  margin-top: 48px;
+  width: 360px;
+}
+.group-about2 h1 {
+  color: #101825;
+  font-family: HK Grotesk;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.group-about2 h4 {
+  color: #848b98;
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.25px;
+  text-align: left;
+}
+.group-about2 p {
+  color: #101825;
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+/*Group-about2*/
+/*Group-about3*/
+.group-about3{
+    margin-top: 48px;
+    position: relative;
+    width: 654px;
+}
+.group-about3 h1{
+    color: #101825;
+font-family: HK Grotesk;
+font-size: 24px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+}
+.group-about3 p{
+font-family: HK Grotesk;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.5px;
+text-align: left;
+color: #273142;
+}
+.group-about3 .about-text{
+margin-bottom: 16px;
+}
+.group-about3 .about-time {
+    width: 654px;
+    height: 301px;
+    border-radius: 8px;
+    border: 1px solid #edf0f4;
+}
+.group-about3 .about-time .about-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 24px 12px 24px;
+}
+.group-about3 .about-time #about-list{
+  padding-top: 12px;
+}
+.group-about3 .about-time .about-list .about-day{
+  color: #848B98;
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  
+}
+.group-about3 .about-time .about-list .about-day li{
+  margin-bottom: 12px;
+}
+.group-about3 .about-time .about-list .about-day-time{
+  color: #101825;
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.15000000596046448px;
+  text-align: right;
+  
+}
+.group-about3 .about-time .about-list .about-day-time li{
+  margin-bottom: 12px;
+}
+.group-about3 .about-time .border{
+  width: 654px;
+  height: 1px;
+  background-color: #edf0f4;
+}
+/*Group-about3*/
+/*Group-about4*/
+.group-about4{
+  position: relative;
+  margin-top: 48px;
+  width: 654px;
+  
+} 
+.group-about4 .about-text p:nth-child(3){
+  position: absolute;
+  right: 0;
+  top: 0px;
+}
+/*Group-about4*/
+/*about-insurance*/
+.about-insurance{
+  margin-top: 48px;
+}
+.insurance-boxs{
+  margin-top: 16px;
+  display: grid;
+  row-gap: 8px;
+}
+.insurance-box{
+  width: 654px;
+height: 56px;
+border: 1px solid #edf0f4;
+border-radius: 8px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: white;
+}
+.insurance-box  p{
+  color: #101825;
+font-family: HK Grotesk;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.15000000596046448px;
+text-align: left;
+padding-left: 24px;
+
+}
+.insurance-box img{
+  width: 82px;
+  height:32px ;
+  padding-right: 32px;
+}
+/*about-insurance*/
+
+/*about-comment*/
+.about-comment{
+  margin-top: 48px;
+  width: 654px;
+  position: relative;
+}
+.about-comment h2{
+ color: #101825;
+font-family: HK Grotesk;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.15000000596046448px;
+text-align: left;
+display: flex;
+align-items: center;
+column-gap: 5px;
+margin-bottom: 16px;
+}
+.about-comment  h2 b{
+  color: #ffad0d;
+}
+
+.about-comment .about-comment-text {
+  width: 564px;
+  display: grid;
+  row-gap: 32px;
+}
+.about-comment .about-comment-text div h4{
+  color: #848B98;
+font-family: HK Grotesk;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: -0.10000000149011612px;
+text-align: left;
+display: flex;
+align-items: center;
+column-gap: 5px;
+
+}
+.about-comment-plus{
+  margin-top: 24px;
+}
+.about-comment-plus a{
+  color: #4cb147;
+font-family: HK Grotesk;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.15000000596046448px;
+text-align: left;
+}
+.about-comment-plus a:hover{
+  text-decoration:solid #4cb147;
+}
+/*about-comment*/
+
