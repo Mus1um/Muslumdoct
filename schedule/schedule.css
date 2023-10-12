@@ -46,19 +46,19 @@ body {
   letter-spacing: -0.25px;
   text-align: left;
 }
-.head-top .icon1 {
+.head-top .angle .span1{
   position: absolute;
   right: 32px;
-  top: 22px;
-  background-color: #edf0f4;
+  bottom: 18px;
+  background-color: #EDF0F4;
   border-radius: 100%;
   width: 36px;
   height: 36px;
 }
-.head-top .icon1 img {
-  position: absolute;
-  right: 32px;
-  top: 22px;
+.head-top .angle .span1 img{
+  position: relative;
+  top: 10px;
+  left: 12px;
 }
 .head-bottom {
   width: 265px;
@@ -86,7 +86,6 @@ body {
 /*header*/
 
 /*section*/
-
 .profile-box {
   width: 556px;
   height: 715px;
@@ -96,6 +95,25 @@ body {
   margin-top: 32px;
   background-color: white;
   border-radius: 8px;
+}
+.card .angle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 675px;
+  position: relative;
+  margin: 0 auto;
+  top: 80px;
+}
+.card .angle span{
+  background-color: white;
+  border: 1px solid #edf0f4;
+  border-radius: 8px;
+  width: 40px;
+  height: 40px;
+}
+.card .angle span img{
+  padding: 8px 8px;
 }
 .profile-box .profile-avatar{
     position: absolute;

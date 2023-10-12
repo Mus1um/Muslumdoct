@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  body {
+    background-color: #fbfbfc;
+  }
+  /*header*/
+  .head-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: white;
+    height: 80px;
+    border-bottom: 1px solid #edf0f4;
+  }
+  .head-top img:nth-child(1) {
+    position: absolute;
+    left: 32px;
+    top: 20px;
+  }
+  .head-top #text1 {
+    position: absolute;
+    left: 264px;
+    top: 18px;
+  }
+  .head-top #text2{
+  position: absolute;
+  top: 18px;
+  left: 494px;
+  }
+  .head-top #text2 h3{
+    color: #4cb147;
+  }
+  .head-top .head-text1 h3 {
+    color: #101825;
+    font-family: HK Grotesk;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.15000000596046448px;
+    text-align: left;
+  }
+  .head-top .head-text1 p {
+    color: #848b98;
+    font-family: HK Grotesk;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+    text-align: left;
+  }
+  .head-top .angle .span1{
+    position: absolute;
+    right: 32px;
+    bottom: 18px;
+    background-color: #EDF0F4;
+    border-radius: 100%;
+    width: 36px;
+    height: 36px;
+  }
+  .head-top .angle .span1 img{
+    position: relative;
+    top: 10px;
+    left: 12px;
+  }
+  .head-bottom {
+    width: 495px;
+    height: 1px;
+    background-color: #4cb147;
+    position: relative;
+  }
+  .head-bottom  .page1 {
+    padding: 2px 8px;
+    font-family: HK Grotesk;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color: white;
+    position: absolute;
+    border-radius: 100%;
+    border: 1px solid #4cb147;
+    left: 265px;
+    bottom: -12px;
+    background-color: #4cb147;
+  }
+  .head-bottom .page2{
+    padding: 2px 8px;
+    font-family: HK Grotesk;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    position: absolute;
+    border-radius: 100%;
+    border: 1px solid #4cb147;
+    left: 495px;
+    bottom: -12px;
+    color: #4cb147;
+  }
+  /*header*/
