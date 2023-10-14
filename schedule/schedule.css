@@ -92,7 +92,6 @@ body {
   border: 1px solid #edf0f4;
   position: relative;
   margin:0 auto;
-  margin-top: 32px;
   background-color: white;
   border-radius: 8px;
 }
@@ -103,7 +102,7 @@ body {
   width: 675px;
   position: relative;
   margin: 0 auto;
-  top: 80px;
+  top: 50px;
 }
 .card .angle span{
   background-color: white;
@@ -259,5 +258,79 @@ text-align: left;
   text-align: center;
   padding: 12px 85px;
    
+}
+.time-top{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  column-gap: 5px;
+  position: absolute;
+  bottom: 261px;
+  left: 32px;
+}
+.time-top .box{
+  border: 1px solid #edf0f4;
+  border-radius: 8px;
+  width: 92px;
+  height: 46px;
+
+}
+.time-top .box h2{
+color: #101825;
+font-family: HK Grotesk;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.10000000149011612px;
+text-align: center;
+padding: 2px;
+
+}
+.time-top .box p{
+  color: #B7BBC2;
+font-family: HK Grotesk;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+text-align: center;
+
+
+}
+.time-bottom{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto  ;
+  gap: 5px;
+  position: absolute;
+  left: 32px;
+  bottom: 96px;
+
+}
+.time-bottom .box{
+width: 92px;
+height: 30px;
+border: 1px solid #EDF0F4;
+border-radius: 8px;
+background-color: #edf0f4;
+}
+.time-bottom .box p{
+  color: #101825;
+font-family: HK Grotesk;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.10000000149011612px;
+text-align: center;
+padding: 5px;
+
+}
+#time12{
+  background-color: #4cb147;
+}
+ #time12 p{
+  color: white;
+}
+#time12 h2{
+  color: white;
 }
 /*section*/
