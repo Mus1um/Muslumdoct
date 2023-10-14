@@ -154,3 +154,208 @@
     color: #4cb147;
   }
   /*header*/
+   /*section*/
+   .profile-box {
+    width: 556px;
+    height: 953px;
+    border: 1px solid #edf0f4;
+    position: relative;
+    margin:0 auto;
+   
+    background-color: white;
+    border-radius: 8px;
+  }
+  .card .angle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 675px;
+    position: relative;
+    margin: 0 auto;
+    top: 50px;
+  }
+  .card .angle span{
+    background-color: white;
+    border: 1px solid #edf0f4;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+  }
+  .card .angle span img{
+    padding: 8px 8px;
+  }
+  .profile-box .profile-avatar{
+      position: absolute;
+      border-bottom:1px solid #edf0f4 ;
+      display: flex;
+      column-gap: 10px;
+      align-items: center;
+      width: 556px;
+      padding: 32px 24px;
+  }
+  .profile-box .profile-avatar h3{
+     color: #101825;
+  font-family: HK Grotesk;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  }
+  .profile-box .profile-avatar p{
+      color: #848B98;
+  font-family: HK Grotesk;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.15000000596046448px;
+  text-align: left;
+  }
+  .profile-box button {
+    width: 492px;
+     height: 48px;
+     background-color: #4cb147;
+     border-radius: 8px;
+     border: none;
+     position: absolute;
+     left: 32px;
+     bottom: 252px;
+   }
+    .profile-box button a {
+     color: white;
+     font-family: HK Grotesk;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 20px;
+     letter-spacing: -0.25px;
+     text-align: center;
+     padding: 12px 85px;   
+   }
+  form{
+    display: grid;
+    grid-template-columns: auto ;
+    position: absolute;
+    left: 32px;
+    top: 161px;
+    margin-top: 24px;
+  }
+  form div{
+    display: flex;
+    column-gap: 8px;
+    position: relative;
+  }
+  form div #input {
+    display: grid;
+    grid-template-columns: auto;
+    position: absolute;
+   left: 100px;
+   top: -20px;
+  }
+  form h1{
+   color: #101825;
+font-family: HK Grotesk;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: -0.15000000596046448px;
+text-align: left;
+margin-bottom: 16px;
+  }
+  form label{
+    color: #848B98;
+font-family: HK Grotesk;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: -0.25px;
+text-align: left;
+  }
+  form input {
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    width:492px ;
+    height: 48px;
+    margin-bottom: 16px;
+  }
+  form input::placeholder{
+    color: #EDF0F4;
+font-family: HK Grotesk;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.25px;
+text-align: left;
+  }
+  select{
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    width:98px ;
+    height: 48px;
+  
+  }
+  #number{
+    width: 394px;
+  }
+  .sosial{
+    position: absolute;
+    bottom: 76px;
+    left: 32px;
+
+  }
+  .sosial div{
+    width: 492px;
+    height: 48px;
+    border-radius: 8px;
+    margin-top: 8px;
+    display: flex;
+    position: relative;
+  }
+  .sosial div img{
+    width: 20px;
+    height: 20px;
+padding: 14px 16px;
+  }
+  .sosial div a{
+font-family: HK Grotesk;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: -0.25px;
+text-align: left;
+
+
+  }
+  .sosial .box1{
+    border: 1px solid #D84E40;
+  }
+  .sosial .box1 a{
+    position: absolute;
+left: 185px;
+top: 16px;
+color: #D84E40;
+  }
+  .sosial .box2{
+   border: 1px solid #1872F2;
+  }
+  .sosial .box2 a{
+    position: absolute;
+    left: 185px;
+    top: 16px;
+    color: #1872F2;
+  }
+  .card .bottom-text{
+ position: absolute;
+ left: 221px;
+ bottom: 32px;
+font-family: HK Grotesk;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: -0.25px;
+text-align: left;
+color: #848B98;
+  }
+  .card .bottom-text b{
+    color: #4cb147;
+  }
+   /*section*/
