@@ -1,0 +1,138 @@
+@import "../header2.css";
+/*card*/
+.card{
+    margin: 0 auto;
+    width: 556px;
+    height: 513px;
+    border: 1px solid #EDF0F4;
+    border-radius: 8px;
+    margin-top: 32px;
+    position: relative;
+    background-color: white;
+}
+.card .profile{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    margin-top: 24px;
+    margin-left: 32px;
+    margin-bottom: 24px;
+}
+.card .profile a{
+    color: #273142;
+font-family: HK Grotesk;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.10000000149011612px;
+text-align: center;
+padding-top: 2px ;
+background-color: #EDF0F4;
+border-radius: 7px;
+width: 99px;
+height: 24px;
+margin-left: 85px;
+}
+.card .card-top{
+    border-bottom: 1px solid #EDF0F4;
+    width: 556px;
+}
+.card .card-bottom .boxs{
+   margin-top: 32px;
+   margin-left: 32px;
+   margin-bottom: 24px;
+}
+.card .card-bottom .boxs .box{   
+margin-bottom: 8px;
+width: 492px;
+height:56px ;
+border: 1px solid #EDF0F4;
+border-radius: 8px;
+}
+.card .card-bottom .boxs .box{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: white;
+}
+.card .card-bottom .boxs .box p{
+    display: flex;
+    align-items: center;
+   color: #273142;
+font-family: HK Grotesk;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.15000000596046448px;
+text-align: left;
+margin-left: 24px;
+margin-right: 24px;
+}
+.card .card-bottom .boxs .box div{
+    border-left: 1px solid #EDF0F4;
+    height: 56px;
+
+}
+.card .card-bottom .boxs .box .p1{
+    margin-right: 150px;
+    margin-top: 16px;
+}
+.card .card-bottom .boxs .box p sup{
+    color: #848B98;
+}
+.card .card-bottom a{
+  color: white;
+font-family: HK Grotesk;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.15000000596046448px;
+text-align: center;
+background-color: #4CB147;
+border-radius: 8px;
+border: none;
+padding-top: 16px;
+padding-bottom: 16px;
+padding-left: 200px;
+padding-right: 210px;
+margin-left: 32px;
+}
+/*card*/
+.text-bottom{
+margin-top: 24px;
+}
+.text-bottom p{
+font-family: HK Grotesk;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.5px;
+text-align: center;
+
+}
+.text-bottom p b{
+    color: #4CB147;
+}
+.sosial{
+   margin-top: 24px;
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+    margin-left: 500px;
+
+}
+.sosial a{
+    background-color: #EDF0F4;
+    border-radius: 50%;
+    border: 1px solid #EDF0F4;
+    padding: 8px;
+    transition: all 300ms;
+}
+.sosial  :nth-child(2){
+    background-color: #4CB147;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
