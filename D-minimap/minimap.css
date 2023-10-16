@@ -1,0 +1,25 @@
+@import "../header2.css";
+@import"../D-clinic/D-clinic.css";
+.card{
+    height: 570px;
+}
+#map{
+    height: 113px;
+    position: relative;
+}
+#map .icon{
+    position: absolute;
+    z-index: 999;
+    top: 16px;
+}
+#map p{
+    position: absolute;
+    top: 16px;
+}
+#map .mapfoto{
+    position: absolute;
+    bottom: 0;
+    width: 492px;
+    height: 55px;
+    
+}

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>D-clinic</title>
-    <link rel="stylesheet" href="D-clinic.css">
+    <title>D-map</title>
+    <link rel="stylesheet" href="map.css">
 </head>
 <body>
     <header>
@@ -29,8 +29,11 @@
             </div>
             <div class="card-bottom">
                 <div class="boxs">
-                <div class="box"><p><img src="../Icon/video (4).svg" alt="">Klinikada görüş</p></div>
-                <div class="box"><p><img src="../Icon/map-pin.svg" alt="">Ege Hospital - 38 Academician Hasan Aliyev St</p></div>
+                <div class="box" id="map">
+                    <img class="icon" src="../Icon/map-pin.svg" alt="">
+                    <p> Ege Hospital - 38 Academician Hasan Aliyev St</p>
+                    <iframe class="mapfoto" id="gmap_canvas" src="https://maps.google.com/maps?q=baku&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                </div>
                 <div class="box">
                      <p><img src="../Icon/calendar-check.svg" alt="">8 Oktyabr</p>
                      <div>
@@ -46,7 +49,7 @@
             </div> 
         </div>
         <div class="text-bottom">
-        <p>Əlavə məlumat və ya sualınız olduqda aşağıda  <br>
+        <p>Əlavə məlumat və ya sualınız olduqda aşağıda <br>
             qeyd olunan ünvan ilə əlaqə saxlayın <br>
             <b>+994 (55) 850 1115</b></p>
         </div>
@@ -58,5 +61,6 @@
         </div>
         </div>
     </section>
+    
 </body>
 </html>
