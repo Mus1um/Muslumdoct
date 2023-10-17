@@ -8,7 +8,7 @@
     border-radius: 8px;
     margin-top: 32px;
     position: relative;
-    background-color: white;
+    
 }
 .card .profile{
     display: flex;
@@ -135,4 +135,46 @@ text-align: center;
 .container{
     max-width: 1140px;
     margin: 0 auto;
+}
+@media (max-width:575px){
+.card{
+    margin-top: 0px;
+    border: none;
+    
+}
+.sosial{
+    margin-left: 130px;
+}
+.text-bottom{
+    margin-top: -100px;
+}
+.card .profile{
+    margin: 16px 16px;
+}
+.card-top .profile h1{
+    font-size: 16px;
+}
+.card-top .profile a{
+    margin-left: 55px;
+}
+.card-top .profile p{
+    color: #4CB147;
+}
+.card-top .profile img{
+    width: 48px;
+    height: 48px;
+}
+.card-top .profile h1 img{
+    display: none;
+}
+.card .card-bottom .boxs .box{
+    width: 328px;
+    height: 48px;
+}
+.card .card-bottom a{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 120px;
+    padding-right: 130px;
+}
 }
