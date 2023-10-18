@@ -334,3 +334,53 @@ padding: 5px;
   color: white;
 }
 /*section*/
+@media (max-width:575px){
+  .head-bottom{
+    width: 0px;
+  }
+  .head-top .head-text1{
+    left: 50px;
+    top: 100px;
+  }
+  .head-top .head-text1 h3{
+    color: #101825;
+  }
+  .head-bottom .onepage{
+    left: 16px;
+  bottom: -50px;
+  }
+  .card{
+    margin-top: 68px;
+  }
+ .card .angle{
+    display: none;
+  }
+  .profile-box{
+    border: none;
+    margin-right: 20px;
+  }
+  .profile-box button {
+    display: none;
+  }
+  .profile-box-top h1{
+    display: none;
+  }
+  .profile-box .profile-boxs1{
+    top: 170px;
+  }
+  .foto2{
+    display: none;
+  }
+  .profile-avatar{
+    padding: 16px;
+  }
+  .profile-box .profile-boxs2{
+    top: 240px;
+  }
+  .time-top{
+    bottom: 300px;
+  }
+  .time-bottom{
+    bottom: 140px;
+  }
+}

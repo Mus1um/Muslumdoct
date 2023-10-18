@@ -215,3 +215,51 @@ body {
   padding: 12px 85px;
 }
 /*section*/
+@media (max-width:575px){
+  .head-bottom{
+    width: 0px;
+  }
+  .head-top  #text1{
+    display: none;
+  }
+  .head-top #text2{
+    left: 82px;
+    top: 105px;
+  }
+  .head-top #text2 h3{
+    color: #101825;
+  }
+  .head-bottom .page1{
+    left: 16px;
+  bottom: -50px;
+  }
+  .head-bottom .page2{
+    left: 52px;
+    bottom: -50px;
+  }
+  .profile-avatar{
+    border-top: 1px solid #edf0f4;
+    
+  }
+  .profile-box{
+    border: none;
+
+  }
+  .card{
+    margin-top: 78px;
+    margin-right: 20px;
+  }
+  .card .angle{
+    display: none;
+  }
+  .profile-bottom h1{
+display: none;
+  }
+  .profile-bottom {
+    bottom: 130px;
+  }
+  .profile-box button{
+    bottom: 52px;
+  }
+
+}
