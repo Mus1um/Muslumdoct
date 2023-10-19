@@ -17,6 +17,7 @@
   column-gap: 24px;
   height: 140px;
 }
+
 .profile .profile-avatar span {
   border-radius: 100%;
   background-color: white;
@@ -33,6 +34,24 @@
 }
 .profile .profile-about {
   margin-top: 8px;
+}
+.profile .profile-about div .konum{
+  color: #101825;
+  font-family: HK Grotesk;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.5px;
+text-align: left;
+}
+.profile .profile-about div :nth-child(2){
+  color: #848B98;
+  font-family: HK Grotesk;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.5px;
+text-align: left;
 }
 .profile .profile-about :nth-child(1) {
   font-family: HK Grotesk;
@@ -653,4 +672,60 @@ text-align: left;
   text-decoration:solid #4cb147;
 }
 /*about-comment*/
-
+@media (max-width:575px){
+  .profile{
+    margin-bottom: 196px;
+  }
+  .profile-box{
+    display: none;
+  }
+  .like{
+    display: none;
+  }
+  .section2{
+    margin-left: 16px;
+  }
+  .navbar{
+    margin-left: 16px;
+  }
+  .about-map img{
+    width: 525px;
+  }
+  .group-about3 .about-time {
+    width: 525px;
+}
+.group-about3 .about-time .border{
+  width: 525px;
+}
+.group-about2{
+  width: 525px;
+}
+.about-insurance .insurance-box{
+  width: 525px;
+}
+.about-comment{
+  width: 525px;
+}
+.group-about4{
+  width: 525px;
+}
+.group-about4 .about-text p:nth-child(3){
+  top: 60px;
+ left: 250px;
+ 
+}
+.about-map{
+  margin-top: 44px;
+}
+.profile .profile-avatar{
+  margin-right: 16px;
+}
+.profile .profile-about {
+  margin-top: 32px;
+}
+.profile .profile-about div{
+  position: relative;
+  top: 60px;
+  right: 180px;
+}
+}

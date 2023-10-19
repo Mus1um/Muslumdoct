@@ -40,3 +40,14 @@ header {
     color: white;
   }
   /*HEADER-END!*/
+  @media (max-width:575px){
+    .head-left select{
+      display: none;
+    }
+    .head-left :nth-child(2){
+      display: none;
+    }
+    .head-left :nth-child(3){
+      margin-right: 20px;
+    }
+  }

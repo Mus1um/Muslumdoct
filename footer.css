@@ -41,7 +41,7 @@ footer {
   .footer-bottom {
     background-color: #101825;
     width: 100%;
-    height: 90px;
+    height: 80px;
     opacity: 0.9;
   }
   .bottom {
@@ -60,3 +60,42 @@ footer {
     color: #ffffff;
   }
   /*FOOTER*/
+  @media(max-width:575px){
+    .footer-top{
+      height: 600px;
+    }
+    .top{
+      display: grid;
+    }
+    .top-left .logo{
+      margin-left: 16px;
+    }
+    .telv{
+      display: flex;
+
+    }
+    .top .top-left .telv .app {
+      margin-top: 10px;
+      margin-left: 16px;
+    }
+   .top .top-right{
+      display: grid;
+      margin-left: 16px;
+    }
+    .top .top-right ul + ul{
+      margin-left: 0px;
+      margin-top: 16px;
+    }
+    .bottom{
+      top: 0px;
+      display: grid;
+    }
+    .bottom .bottom-left{
+      position: relative;
+      bottom: 140px;
+      margin-left: 16px;
+    }
+    .bottom .bottom-right{
+      margin-left: 16px;
+    }
+  }
