@@ -41,6 +41,9 @@ header {
   }
   /*HEADER-END!*/
   @media (max-width:575px){
+    header{
+      margin-left: 16px;
+    }
     .head-left select{
       display: none;
     }
@@ -48,6 +51,6 @@ header {
       display: none;
     }
     .head-left :nth-child(3){
-      margin-right: 20px;
+      margin-right: 32px;
     }
   }
