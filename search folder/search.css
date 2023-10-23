@@ -21,6 +21,7 @@
   font-size: 34px;
   font-weight: 400;
   line-height: 40px;
+  margin-bottom: 16px;
 }
 .group1-left div {
   position: relative;
@@ -285,6 +286,16 @@
   text-align: left;
   z-index: 99;
 }
+.group2 .group2-box .group2-box-left .doct-about .doct-about-text  h2 {
+  color: #101825;
+font-family: HK Grotesk;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.5px;
+text-align: left;
+
+}
 .group2-box-right {
   position: absolute;
   right: 32px;
@@ -381,7 +392,7 @@
   left: 16px;
   top: 5px;
 }
-.group2-2bottom div {
+.group2-2bottom .ps {
   width: 352px;
   height: 96px;
   border: 1px solid #edf0f4;
@@ -399,7 +410,16 @@
   position: relative;
   top: 16px;
 }
-.group2-2bottom div :nth-child(3) {
+.group2-2bottom .p1{
+  margin-bottom: 16px;
+  border-bottom: 1px solid #edf0f4;
+  height: 48px;
+}
+.group2-2bottom .p2{
+  position: absolute;
+  bottom: 50px;
+}
+.group2-2bottom #p2{
   color: #4cb147;
   display: flex;
   align-items: center;
@@ -408,13 +428,7 @@
   left: 101px;
   top: 40px;
 }
-.group2-2bottom div .xett {
-  width: 352px;
-  height: 1px;
-  background-color: #edf0f4;
-  position: relative;
-  top: 30px;
-}
+
 
 .group3 ul {
   display: flex;
@@ -456,3 +470,87 @@
 }
 
 /*SECTION2*/
+@media (max-width:575px){
+  .section2 .container .group2 .group2-box .group2-box-left .avatar .ava{
+    width: 124px;
+    height: 124px;
+  }
+  .group3{
+    display: none;
+  }
+  .group1-right{
+    display: none;
+  }
+  .section1{
+    margin-left: 16px;
+  }
+  .group1-left div input{
+    width: 500px;
+  }
+  .group1-left .doctors{
+    font-size: 32px;
+  }
+  .group2{
+    margin-top: 0px;
+  }
+  .group2-box-right .group2-top{
+    display: none;
+  }
+  .group2-box-bottom{
+    display: none;
+  }
+  .group2-box{
+    width: 575px;
+    height: 350px;
+  }
+  #group2-box{
+    height: 440px;
+  }
+  .group2-2bottom .ps {
+    top: 280px;
+    right: 110px;
+    width: 400px;
+  }
+  .group2-2bottom .p2{
+    left: 25px;
+  }
+  .group2-box
+  .group2-box-left
+  .doct-about
+  .doct-about-boxs
+  .doct-about-box
+  img:nth-child(2){
+    display: none;
+  }
+  .group2-box .group2-box-left .doct-about-text2  p{
+    font-size: 24px;
+  }
+  .group2-box .group2-box-left .doct-about-text2  h2{
+    font-size: 24px;
+  }
+  .group2-box .group2-box-left .doct-about .doct-about-boxs .doct-about-box{
+    width: 200px;
+    height: 58px;
+  }
+  .doct-about-text{
+    position: relative;
+    right: 170px;
+    top: 40px;
+  }
+  .group2-box
+  .group2-box-left
+  .doct-about
+  .doct-about-boxs{
+    position: relative;
+    right: 170px;
+    top: 30px;
+  }
+ .group2 .group2-box .group2-box-left .link{
+    position: relative;
+    left: 200px;
+    top: 114px;
+  }
+  .group2 .group2-box .group2-box-left .link p a{
+    font-size: 16px;
+  }
+}
