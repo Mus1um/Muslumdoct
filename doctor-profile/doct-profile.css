@@ -331,6 +331,55 @@
   position: relative;
   top: 30px;
 }
+.clinic-boxs{
+  display: flex;
+  margin-left: 32px;
+  margin-top: 82px;
+  display: none;
+}
+.clinic-box{
+  width: 160px;
+  height: 48px;
+  border: 1px solid #edf0f4;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+  transition: 300ms;
+}
+.clinic-boxs  :hover{
+border: 1px solid #4cb147;
+background-color: #F2FAF2;
+}
+#box2{
+  border: 1px solid #D45A5A;
+  background-color: #FAECEC;
+}
+.clinic-box img{
+  padding-left: 16px;
+  padding-right: 8px;
+}
+.submit{
+  margin-left: 48px;
+  margin-top: 24px;
+  display: none;
+}
+.submit a{
+font-family: HK Grotesk;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: -0.25px;
+text-align: center;
+  border: 1px solid #edf0f4;
+  padding-left: 132px;
+  border-radius: 8px;
+  color:white;
+  padding-right: 132px;
+  padding-top:12px ;
+  padding-bottom: 12px;
+  background-color: #4cb147;
+}
 
 /*PROFILE*/
 /*Navbar*/
@@ -559,10 +608,20 @@ nav {
   margin-top: 48px;
   width: 654px;
 }
+.group-about4 .about-text p{
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
 .group-about4 .about-text p:nth-child(3) {
   position: absolute;
   right: 0;
   top: 0px;
+}
+.group-about4 .about-text p span img{
+  background-color: white;
+  border: 1px solid #edf0f4;
+  border-radius: 50%;
 }
 /*Group-about4*/
 /*about-insurance*/
@@ -659,7 +718,7 @@ nav {
 /*about-comment*/
 @media (max-width: 575px) {
   .profile {
-    margin-bottom: 196px;
+    /* margin-bottom: 196px; */
   }
   .profile-box {
     display: none;
@@ -695,11 +754,11 @@ nav {
     width: 525px;
   }
   .group-about4 .about-text p:nth-child(3) {
-    top: 60px;
-    left: 250px;
+    top: 70px;
+    left: 0px;
   }
   .about-map {
-    margin-top: 44px;
+    margin-top: 64px;
   }
   .profile .profile-avatar {
     margin-right: 16px;
@@ -711,5 +770,15 @@ nav {
     position: relative;
     top: 60px;
     right: 180px;
+  }
+  .clinic-boxs {
+    display: flex;
+  }
+  .submit{
+    display: block;
+  }
+  .group-about4 .about-text p{
+    justify-content: space-between;
+    width: 525px;
   }
 }
