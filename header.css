@@ -39,6 +39,9 @@ header {
     background-color: #4cb147;
     color: white;
   }
+  .head-left div .a2{
+    color: white;
+  }
   /*HEADER-END!*/
   @media (max-width:575px){
     header{
