@@ -157,6 +157,28 @@
   position: absolute;
   right: 0;
 }
+.owl-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  bottom: 330px;
+}
+
+.owl-nav button img{
+  padding: 6px 6px;
+  background-color: white;
+  border: 1px solid #edf0f4;
+  border-radius: 50%;
+}
+.owl-nav .owl-prev{
+  position: relative;
+  right: 20px;
+}
+.owl-nav .owl-next{
+  transform: rotate(180deg);
+}
 /*GROUP2*/
 /*GROUP3*/
 .section3-text {
