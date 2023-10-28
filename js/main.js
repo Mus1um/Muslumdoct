@@ -1,4 +1,4 @@
-$('.owl-carousel').owlCarousel({
+$('.one-carusel').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
@@ -12,6 +12,26 @@ $('.owl-carousel').owlCarousel({
         },
         1000:{
             items:2
+        }
+    }
+})
+$('.box-carusel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    navText: ["<img src='./img/angle-left.svg'>" , "<img src='./img/angle-left.svg'>"],
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        575:{
+            items:1
+        },
+        1000:{
+            items:3
         }
     }
 })
