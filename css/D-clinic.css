@@ -1,5 +1,6 @@
 @import "../header2.css";
 @import "./D-videocall.css" ;
+@import url(./font.css);
 .card{
     height: 570px;
 }
